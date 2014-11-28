@@ -97,5 +97,7 @@ install:
     fi
 script:
   - bin/test_travis.sh
+archive: true
+
 notifications:
   email: false
